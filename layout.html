@@ -1,0 +1,149 @@
+ T<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    </body>
+    <meta name="viewport" content="width=device-width'initial-scale=1.0">
+    <title>First Layout</title>
+    <style>
+        body {
+            background-color: rgb(25, 78, 131);
+        }
+
+        /*This is header style*/
+        header {
+            background-image: url("/https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.peakpx.com%2Fen%2Fsearch%3Fq%3D%2F%2Bsunflower%26page%3D14&psig=AOvVaw2J3ccbXHDwgMZYbZPGKC1T&ust=1751126400402000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCJDhsMj8kY4DFQAAAAAdAAAAABAK") backgrond-size:cover;
+            text-align: center;
+            color: orange;
+        }
+
+        header img {
+            height: 200px;
+            width: 150px;
+            border-radius: 40%;
+            border: 5px solid orange;
+        }
+
+        ul {
+            list style type: none;
+            margin: 0;
+            padding: 0;
+            overflow: 0;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: inline-blocks;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #bf1717;
+        }
+
+        active {
+            background-color: rgb(14, 14, 14);
+        }
+
+        aside {
+            height: 700px;
+            width: 30%;
+            background-color: rgb(101, 99, 98);
+            float: left;
+            color:orange;
+
+        }
+
+        section {
+            height: 700px;
+            width: 70%;
+            background-color: chocolate;
+            float: left;
+
+        }
+
+        section .sectionpara {
+            padding-left: 100px;
+            text-indent: 50px;
+            line-height: 30px;
+
+        }
+
+        footer {
+            background-image: url("/https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.peakpx.com%2Fen%2Fsearch%3Fq%3D%2F%2Bsunflower%26page%3D14&psig=AOvVaw2J3ccbXHDwgMZYbZPGKC1T&ust=1751126400402000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCJDhsMj8kY4DFQAAAAAdAAAAABAK") backgrond-size:cover;
+            text-align: center;
+          /*  width:10px;*/
+          color:yellow;
+           
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+        <h1>Wesbite Name</h1>
+        <img src="https://img-v3.deepdreamgenerator.com/3271012/md_nfz86c_0de0d4f110b4898f953340cc6c3ecc891332b460.jpg"alt="logo">
+        <p>Flower,This is sunflower.I like this flower. </p>
+    </header>
+    <aside>
+        <h2>Aside</h2>
+        <img src="https://thumbs.dreamstime.com/b/sunflower-field-bright-yellow-flowers-beautiful-summer-landscape-154213484.jpg"alt="logo">
+        <p>The little flower of the hope.</p>
+    </aside>
+    <section>
+        <div class="sectionpara">
+            <h2>Section Heading</h2>
+            <p>
+               The sunflower is a flower that symbolizes love,hope,loyalt,andunwavering faith in the future.
+                This flower symbolizes bravery.It is a solitary bloom.More than just a blossom,itstands as a
+                gentle reminder that even in darkness,one can still turn toward the light .I am  so like this
+                 flower. This flower is so beautyful.
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h2>Design by Flower</h2>
+        <p style="font-size: 10px;"><em>Copyright @Flower</em></p>
+        <a href="mailto:flower@gmail.com">Send Mail</a>
+    </footer>
+</body>
